@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITU | CNTT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://fit-hitu.edu.vn/wp-content/uploads/2020/07/cropped-logo-32x32.png" sizes="32x32" />
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="thuvien.css">
+</head>
+
+<body>
+    <div class="container-md white px-3">
+        <header>
+            <div class="topbar row">
+                <div class="topbar_logo col-md-6"><img
+                        src="http://fit-hitu.edu.vn/wp-content/themes/fittheme/assets/images/logo.png" alt=""></div>
+                <div class="topbar_search col-md-6 mt-3">
+                    <form action=""><input type="text" placeholder="Từ khóa tìm kiếm"> <button><i
+                                class="fa-solid fa-magnifying-glass"></i></button> </form>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="nav_menu mt-3">
+                    <li class="nav_menu-item ms-4"><a href="#">TRANG CHỦ</a> </li>
+                    <li class="nav_menu-item">
+                        <div class="dropdown dropdown-hover">
+                            <a class="btn text-light dropdown-toggle border-0 " href="#">
+                                GIỚI THIỆU
+
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Gioi thiệu chung</a></li>
+                                <li><a class="dropdown-item" href="#">Đội ngũ nhân sự</a></li>
+                                <li><a class="dropdown-item" href="#">Cơ sở vật chất</a></li>
+                            </ul>
+                        </div>
+
+
+                    </li>
+                    <li class="nav_menu-item">
+                        <div class="dropdown dropdown-hover">
+                            <a class="btn text-light dropdown-toggle border-0 " href="#">
+                                ĐÀO TẠO
+
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Chương trình đào tạo</a></li>
+                                <li><a class="dropdown-item" href="#">Chương trình ngắn hạn</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav_menu-item"><a href="#">TIN TỨC</a> </li>
+                    <li class="nav_menu-item">
+                        <div class="dropdown dropdown-hover">
+                            <a class="btn text-light dropdown-toggle border-0 " href="#">
+                                SINH VIÊN
+
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Thông báo</a></li>
+                                <li><a class="dropdown-item" href="#">Lịch thi</a></li>
+                                <li><a class="dropdown-item" href="#">Lịch học</a></li>
+                                <li><a class="dropdown-item" href="#">Cố vấn học tập</a></li>
+                                <li><a class="dropdown-item" href="#">Olympic</a></li>
+                                <li><a class="dropdown-item" href="#">Đồ án - thực tập tốt nghiệp</a></li>
+                                <li><a class="dropdown-item" href="#">Thực tế doanh nghiệp</a></li>
+                                <li><a class="dropdown-item" href="#">Thông tin tốt nghiệp</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav_menu-item"><a href="#">ĐIỂM THI</a> </li>
+                    <li class="nav_menu-item"><a href="#">TUYỂN DỤNG</a> </li>
+                    <li class="nav_menu-item"><a href="#">ĐOÀN THANH NIÊN</a> </li>
+                    <li class="nav_menu-item me-4"><a href="#">LIÊN HỆ</a> </li>
+
+                    <div class="menu_mobie">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-align-justify"></i>
+                        </button>
+
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title text-secondary" id="offcanvasExampleLabel">DANH MỤC</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="t-dark">
+                                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" >
+                                              Trang chủ
+                                            </button>
+                                          </h2>
+                                          
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                              Gioi Thiệu
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse text-start p-0" aria-labelledby="panelsStayOpen-headingTwo">
+                                            <div class="accordion-body">
+                                                <ul class="p-0">
+                                                    <li class=" border-bottom"><a class="t-dark  " href="#">Gioi thiệu chung</a></li>
+                                                    <li class=" border-bottom"> <a class=" t-dark" href="#">Đội ngũ nhân sự</a></li>
+                                                    <li class=" "><a class=" t-dark" href="#">Cơ sở vật chất</a></li>
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                              Đào tạo
+                                            </button>
+                                          </h2>
+                                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse text-start" aria-labelledby="panelsStayOpen-headingThree">
+                                            <div class="accordion-body">
+                                                <ul class="p-0">
+                                                    <li class=" border-bottom"><a class="t-dark text-start " href="#">Chương trình đào tạo</a></li>
+                                                    <li class=" border-bottom"> <a class=" t-dark" href="#">Chương trình ngắn hạn</a></li>
+                                                   
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                <a class="t-dark" href="">Tin tức</a>
+                                              </button>
+                                            </h2>
+                                            
+                                            
+                                          </div>
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                <a class="t-dark" href="">Sinh viên</a>
+                                              </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse text-start" aria-labelledby="panelsStayOpen-headingThree">
+                                              <div class="accordion-body">
+                                                  <ul class="p-0">
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Thông báo</a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Lịch học</a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Lich thi</a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Olympic</a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Đồ án – Thực tập tốt nghiêp</a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Thông tin tốt nghiệp</a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">TThực tế doanh nghiệp</a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Biểu mẫu                                                    </a></li>
+                                                      <li class=" border-bottom"><a class="t-dark text-start " href="#">Tuyển sinh</a></li>
+                                                      <li class=""> <a class=" t-dark" href="#">Tuyển dụng</a></li>
+                                                     
+                                                  </ul>
+                                              </div>
+                                            </div>
+                                            
+                                          </div>
+                                      </div>
+                                    
+                                </div>
+                                <div class="dropdown mt-3">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+
+            </div>
+
+            <!-- ---nv-mobi -->
+
+
+
+        </header>
+        <div class="noidung row">
+            <div class="col-md-9">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://fit-hitu.edu.vn/wp-content/uploads/2020/07/slider_cosovatchat.jpg.webp"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://fit-hitu.edu.vn/wp-content/uploads/2021/08/banner-tuyensinh-2022.png.webp"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://fit-hitu.edu.vn/wp-content/uploads/2020/07/slider_vitrivieclam.jpg.webp"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="row mt-5 td ms-12  w-100">
+                    <span class="bv">TIN TỨC</span>
+                    <div class="tieu-de row">
+                        <div class="col-md-6 tb mt-3 p-0">
+                            <img class="w-100 "
+                                src="http://fit-hitu.edu.vn/wp-content/uploads/2022/11/tbxettn-640x335.jpg.webp" alt="">
+
+                            <div class="row ">
+                                <div class="col-2 nen ">09 <br> T11</div>
+                                <div class="col-9 mt-3">
+                                    <h5 class="fs-5"><b>THÔNG BÁO XÉT TỐT NGHIỆP</b> </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="http://fit-hitu.edu.vn/wp-content/uploads/2022/11/z3819382616545_467533a27ac77fde1c9a2c8b573ea827-310x162.jpg.webp"
+                                        alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Danh sách sinh viên nhận học bổng DARIU</p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 05.11.2022</span>
+                                </div>
+                            </div>
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="http://fit-hitu.edu.vn/wp-content/uploads/2022/10/Capture-310x162.png.webp"
+                                        alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Báo cáo thống kê nhu cầu tuyển dụng CNTT (IT) năm 2022</p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 05.11.2022</span>
+                                </div>
+                            </div>
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="http://fit-hitu.edu.vn/wp-content/uploads/2022/10/icon_web-02-310x162.jpg.webp"
+                                        alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Đăng ký học bổng Skills For Future</p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 05.11.2022</span>
+                                </div>
+                            </div>
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="http://fit-hitu.edu.vn/wp-content/uploads/2022/10/ADSC02885-310x162.jpg.webp"
+                                        alt="">
+
+
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Lễ ra mắt CLB Kỹ Thuật Công Nghệ(TEC) và phát động cuộc thi
+                                        đua xe mô hình</p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 05.11.2022</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="w-100" src="https://fit-hitu.edu.vn/wp-content/uploads/2022/02/TuyenSinh2022_banner.png"
+                        alt="">
+                </div>
+                <div class="row">
+
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class=" background_da mt-2">ĐỒ ÁN - TTTN</div>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item ps-10"><a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp; Đồ án chuyên ngành_HK1 năm
+                                    2022-2023 (C.Hường)</a> </li>
+                            <li class="list-group-item ps-10"><a href="" class="a_hover"> <i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Đồ án môn học Thầy Tú</a></li>
+                            <li class="list-group-item ps-10"><a href="" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Thông báo Thực tập tốt nghiệp (HK1
+                                    2022 – 2023) do thầy Thạch hướng dẫn</a> </li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Hướng dẫn TTTN Thầy Nhựt.</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Lịch gặp DACN, TTTN Thầy Đức học kỳ
+                                    1 năm 2022-2023</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp; Đồ án chuyên ngành_HK1 năm
+                                    2022-2023 (C.Hường)</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Đồ án môn học Thầy Tú</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Thông báo Thực tập tốt nghiệp (HK1
+                                    2022 – 2023) do thầy Thạch hướng dẫn</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Lịch gặp DACN, TTTN Thầy Đức học kỳ
+                                    1 năm 2022-2023</a></li>
+                        </ul>
+                        <a href="#" class="all cl-black">Xem tất cả</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class=" background_da1  mt-2">ĐIỂM THI</div>
+                        <ul class="list-group list-group-flush mt-3">
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm Tổng kết các môn Đợt 1-Hk1
+                                    2022-2023 Cô Mai</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm thi môn NMLT lớp CCQ2211AB (cô
+                                    Cúc)</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểmthi môn CTDL (thầy Trường)</a>
+                            </li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm học phần môn TTNT Thầy Đức</a>
+                            </li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm thi môn tin học (Thầy
+                                    Trường)</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm thi môn NMLT lớp CCQ2211AB (cô
+                                    Cúc)</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm Tổng kết các môn Đợt 1-Hk1
+                                    2022-2023 Cô Mai</a></li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểmthi môn CTDL (thầy Trường)</a>
+                            </li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm học phần môn TTNT Thầy Đức</a>
+                            </li>
+                            <li class="list-group-item ps-10"> <a href="#" class="a_hover"><i
+                                        class="fa-solid fa-chevron-right"></i>&emsp;Điểm thi môn tin học (Thầy
+                                    Trường)</a></li>
+                        </ul>
+                        <a href="#" class="all cl-black">Xem tất cả</a>
+                    </div>
+                </div>
+                <div class="row mt-5 td ms-12  w-100">
+                    <span class="bv">ĐOÀN</span>
+                    <div class="tieu-de row">
+                        <div class="col-md-6 tb mt-3 p-0">
+                            <img class="w-100 "
+                                src="https://fit-hitu.edu.vn/wp-content/uploads/2022/10/ADSC02885-640x335.jpg.webp"
+                                alt="">
+
+                            <div class="row ">
+                                <div class="col-2 nen ">14 <br> T10</div>
+                                <div class="col-9 mt-3">
+                                    <h5 class="fs-5"><b>Lễ ra mắt CLB Kỹ Thuật Công Nghệ(TEC) và phát động cuộc thi đua
+                                            xe mô hình</b> </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="https://fit-hitu.edu.vn/wp-content/uploads/2020/07/doan-thanh-nien.png.webp"
+                                        alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Giải bóng đá khoa CNTT Chúc mừng các đội đã vào vòng trong
+                                    </p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 14.03.2022</span>
+                                </div>
+                            </div>
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="https://fit-hitu.edu.vn/wp-content/uploads/2020/07/doan-thanh-nien.png.webp"
+                                        alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Tuyển sinh lớp lập trình nhúng [miễn phí] tại Cao đẳng Công
+                                        Thương TP.HCM</p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 20.05.2022</span>
+                                </div>
+                            </div>
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="https://fit-hitu.edu.vn/wp-content/uploads/2020/07/doan-thanh-nien.png.webp"
+                                        alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Đăng ký đi hội trại trường 2021</p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 10.04.2022</span>
+                                </div>
+                            </div>
+                            <div class="row tin-tuc-hover mt-3">
+                                <div class="col-md-3  img">
+                                    <img class="w-100"
+                                        src="https://fit-hitu.edu.vn/wp-content/uploads/2020/07/doan-thanh-nien.png.webp"
+                                        alt="">
+
+
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="fs-6 m-0 p-0">Điểm thi môn Kiểm thử PM_Thầy Sơn_Lớp CCQ1811E_Nhóm 01</p>
+                                    <span><i class="fa-solid fa-mobile-retro"></i> 19.12.2020</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 td ms-12  w-100">
+                    <span class="bv">TUYỂN DỤNG</span>
+                    <div class="tieu-de row">
+                        <div class="col-md-3">
+                            <figure class="snip1553">
+                                <img src="https://fit-hitu.edu.vn/wp-content/uploads/2021/10/thumbnail_tuyendung.png.webp"
+                                    alt="sample110" />
+                                <figcaption>
+                                    <h3>developer <span>TUYỂN THỰC TẬP SINH</span></h3>
+                                </figcaption>
+                                <a href="#"></a>
+                            </figure>
+                        </div>
+                        <div class="col-md-3">
+                            <figure class="snip1553">
+                                <img class="h"
+                                    src="https://fit-hitu.edu.vn/wp-content/uploads/2021/05/fsoft-300x200.jpg.webp"
+                                    alt="sample110" />
+                                <figcaption>
+                                    <h3>FPT <span>Software Tuyển Dụng</span></h3>
+                                </figcaption>
+                                <a href="#"></a>
+                            </figure>
+                        </div>
+                        <div class="col-md-3 ">
+                            <figure class="snip1553">
+                                <img class="h"
+                                    src="https://fit-hitu.edu.vn/wp-content/uploads/2021/03/tuyendung-300x225.jpg.webp"
+                                    alt="sample110" />
+                                <figcaption>
+                                    <h3>Tuyển dụng <span> Lập trình viên</span></h3>
+                                </figcaption>
+                                <a href="#"></a>
+                            </figure>
+                        </div>
+                        <div class="col-md-3 ">
+                            <figure class="snip1553">
+                                <img class="h"
+                                    src="https://fit-hitu.edu.vn/wp-content/uploads/2021/03/154959490_878055619407243_8863714729194200981_n-300x225.jpg.webp"
+                                    alt="sample110" />
+                                <figcaption>
+                                    <h3>TÂN PHÚ <span> TUYỂN DỤNG ĐI LÀM NGAY!!!</span></h3>
+                                </figcaption>
+                                <a href="#"></a>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row border-t-3 mt-4">
+                    <span class="bv">BÀI VIẾT MỚI</span>
+                    <div class="col-12 row scroll fs-7 section">
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1 ">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+
+                        <div class="row new-hover">
+                            <div class="col-3 mt-1">
+                                <span class="day bg-light ">16</span>
+                                <span class="day2 bg-blue">11/2022</span>
+                            </div>
+                            <div class="col-9">
+                                <p class="ps-10 mt-1">Lịch báo cáo môn học thầy Hồ Diên Lợi HK1-2022-2023</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="row mt-5 td">
+                    <span class="bv">CHUYÊN MỤC</span>
+                    <ul class="list-group list-group-flush tieu-de ">
+                        <li class="list-group-item background_hover">Thông báo</li>
+                        <li class="list-group-item background_hover">Lịch học</li>
+                        <li class="list-group-item background_hover">Lich thi</li>
+                        <li class="list-group-item background_hover">Olympic</li>
+                        <li class="list-group-item background_hover">Đồ án – Thực tập tốt nghiêp</li>
+                        <li class="list-group-item background_hover">Thông tin tốt nghiệp</li>
+                        <li class="list-group-item background_hover">Thực tế doanh nghiệp</li>
+                        <li class="list-group-item background_hover">Biểu mẫu</li>
+                        <li class="list-group-item background_hover">Tuyển dụng</li>
+                        <li class="list-group-item background_hover">Tuyển sinh</li>
+                    </ul>
+                </div>
+                <div class="row mt-5 td tieu-de">
+                    <span class="bv">QUẢNG CÁO</span>
+                    <div class="">
+                        <img class="w-100" src="https://fit-hitu.edu.vn/wp-content/uploads/2020/07/Trongvien1.gif"
+                            alt="">
+                    </div>
+
+                </div>
+                <div class="row mt-5 td tieu-de">
+                    <span class="bv">VIDEO</span>
+                    <div class="p-0">
+                        <iframe class="if p-0" width="320" height="163" src="https://www.youtube.com/embed/AhFDhH2-2Bk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                    </div>
+
+                </div>
+                <div class="row mt-5 td tieu-de">
+                    <span class="bv">FACEBOOK</span>
+                    <div class="p-3 bd-face">
+                        <a class="cl-black" href="https://www.facebook.com/fithitu">Khoa CNTT - Trường CĐ Công Thương
+                            TP.HCM</a>
+                    </div>
+
+                </div>
+                <div class="row mt-5 td tieu-de">
+                    <span class="bv">LIÊN KẾT</span>
+                    <div class="p-0">
+                        <a href="#"><img class="w-100" src="https://fit-hitu.edu.vn/wp-content/uploads/2020/10/dkmh.gif"
+                                alt=""></a>
+                        <a href="#"><img class="w-100"
+                                src="https://fit-hitu.edu.vn/wp-content/uploads/2022/01/tuyensinh2022.gif" alt=""></a>
+                        <a href="#"><img class="w-100"
+                                src="	https://fit-hitu.edu.vn/wp-content/uploads/2022/01/LienThong.png.webp" alt=""></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="svtb w-100">
+                <p>SINH VIÊN TIÊU BIỂU</p>
+            </div>
+            <div class="row">
+                <div class="col-md-2 me-4 text-center">
+                    <figure class="snip1566 ">
+                        <img class="vd"
+                            src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/239626647_580269386670247_2534301077815791027_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=ZxsxBrhwdVoAX_-FqEn&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfDWJ9SfG-9qKY5aHZH3Mvyo-c73mBtTRy5fHkQyv1f80g&oe=637B38B6"
+                            alt="sq-sample14" />
+                        <figcaption><i class="fa-solid fa-medal"></i></figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <h6 class="text-center ms-md-4">VŨ VĂN ĐỊNH</h6>
+                    <p class="text-center ms-md-3 ps-10">KHÓA HỌC 2021-2023</p>
+                </div>
+                <div class="col-md-2 me-4 text-center">
+                    <figure class="snip1566">
+                        <img src="DANG3.jpg" alt="sq-sample14" />
+                        <figcaption><i class="fa-solid fa-medal"></i></figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <h6 class="text-center ms-4">TRẦN VĂN ĐẲNG</h6>
+                    <p class="text-center ms-3 ps-10">KHÓA HỌC 2021-2023</p>
+                </div>
+                <div class="col-md-2 me-4 text-center">
+                    <figure class="snip1566">
+                        <img src="em.jpg" alt="sq-sample14" />
+                        <figcaption><i class="fa-solid fa-medal"></i></figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <h6 class="text-center ">BÙI THỊ HỒNG THƠM</h6>
+                    <p class="text-center ms-3 ps-10">KHÓA HỌC 2021-2023</p>
+                </div>
+                <div class="col-md-2 me-4 text-center">
+                    <figure class="snip1566">
+                        <img src="z3858781160916_fac741dd5a6862b42fb95f08f14d141f.jpg" alt="sq-sample14" />
+                        <figcaption><i class="fa-solid fa-medal"></i></figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <h6 class="text-center ms-4 text-center">NGUYỄN CÔNG KHÁNH</h6>
+                    <p class="text-center ms-3 ps-10">KHÓA HỌC 2021-2023</p>
+                </div>
+                <div class="col-md-2 me-4 text-center">
+                    <figure class="snip1566">
+                        <img src="TAN.jpg" alt="sq-sample14" />
+                        <figcaption><i class="fa-solid fa-medal"></i></figcaption>
+                        <a href="#"></a>
+                    </figure>
+                    <h6 class="text-center ms-4">LÂM NHẬT TÂN</h6>
+                    <p class="text-center ms-3 ps-10">KHÓA HỌC 2021-2023</p>
+                </div>
+            </div>
+            <footer>
+                <div class="row bg-blue text-light pt-3">
+                    <div class="col-md-6">
+                        <h4>KHOA CÔNG NGHỆ THÔNG TIN <br>
+                            Trường Cao Đẳng Công Thương TP.Hồ Chí Minh</h4>
+                        <p class="p-0 m-0">Địa chỉ: Số 20 Tăng Nhơn Phú, P. Phước Long B, Quận 9, TP.HCM</p>
+                        <p class="p-0 m-0">Điện thoại: 028.37313631</p>
+                        <p class="p-0 m-0">Fax: 028.38978501</p>
+                        <p class="pb-0 m-0">Facebook: https://facebook.com/groups/fithitu</p>
+                    </div>
+                    <div class="col-md-6 thong-ke">
+
+                        <p><i class="fa-solid fa-users"></i> Hôm nay: 108</p>
+                        <p><i class="fa-solid fa-trowel-bricks"></i> Tổng lượt: 2083992</p>
+                        <p><i class="fa-regular fa-user"></i> Người đang online: 100</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>

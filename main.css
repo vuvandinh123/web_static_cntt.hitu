@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: unset;;
+}
+:root{
+    --xanh:#0078C1;
+    --xanhblue:#007AFF;
+    --xam:rgb(240, 238, 238);
+}
+.fs-7{
+    font-size: 15px;
+}
+.bg-blue{
+    background-color: var(--xanhblue);
+}
+body{
+    background-color: unset;;
+}
+.white{
+    background-color: white;;
+}
+html{
+    background-color: #D1CBDB;
+}
+.topbar button{
+    border: none;
+    background: none;
+    color: var(--xanh);
+}
+.topbar_logo img{
+    margin-top:5px ;
+   max-width: 100%;
+}
+.topbar_search{
+    text-align: center;
+   
+}
+.topbar_search input{
+   outline: none;
+   padding: 6px 12px;
+   border: none;
+   border-bottom: 0.1px solid #333;
+   width: 50%;
+ 
+}
+.nav{
+    justify-content: center;
+}
+.nav .nav_menu{
+    background-color: var(--xanhblue);
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+
+}
+.nav .nav_menu li{
+    line-height: 37px;
+}
+
+.scroll{
+    width: 350px;
+    margin-right: 10px;
+   padding-top: 10px;
+    overflow-y: scroll;
+    height: 420px;
+    cursor: pointer;
+    border-top: 1px solid var(--xanhblue);
+}
+.border-t-3{
+    position: relative;
+}
+
+.scroll::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    
+    
+    border-right:30px solid transparent ;
+    border-bottom: 25px solid var(--xanhblue);
+    transform: translateY(-100%);
+}
+.ps-10{
+    font-size: 14px;
+}
+.day{
+    color: var(--xanhblue);
+    text-align: center;
+    display: block;
+    
+}
+.day2{
+    color: white;;
+    /* //text-align: center; */
+    display: block;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.section::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::placeholder { 
+    color: var(--xanh);
+    opacity: 1; 
+}
+  .section::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+  
+  .section::-webkit-scrollbar-thumb {
+    background-color: var(--xanhblue);
+    border-radius: 100px;
+  }
+.new-hover{
+    position: relative;
+    left: 10px;
+    transition: 0.2s;
+    right: 0;
+    width: 500px;
+}
+.new-hover:hover{
+    background-color: var(--xam);
+   color: var(--xanhblue);
+   font-size: 15px;
+     left: 1px;
+     right: -30px;
+}
+.dropdown-hover:hover ul{
+    /* z-index: 999; */
+    display: block;
+    
+}
+.td{
+    position: relative;
+    border-top: 1px solid var(--xanhblue);
+    
+    width: 320px;
+  
+}
+.tieu-de::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    
+    /* left:10px; */
+    border-right:30px solid transparent ;
+    border-bottom: 25px solid var(--xanhblue);
+    transform: translateY(-100%);
+}
+.bv{
+    position: absolute;
+    transform: translateY(-100%);
+    color: white;
+    z-index: 999;
+    font-size: 15px;
+    font-weight: 600;
+    left: 5px;
+
+}
+.ms-12{
+    margin-left: 1px;
+}
+.img img{
+    height: 90%;
+}
+.tin-tuc-hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+.tin-tuc-hover p:hover{
+    color: var(--xanhblue);
+}
+.tin-tuc-hover span{
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.nen{
+    background-color: var(--xanhblue);
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    font-weight: 800;
+    margin-left: 11px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.background_hover{
+    transition: 0.2s;
+   cursor: pointer;;
+}
+.background_hover:hover{
+    background-color: var(--xam);
+   
+}
+.background_da{
+    background-image: url(https://fit-hitu.edu.vn/wp-content/uploads/2020/11/Bg410_100_2.png.webp);
+    background-repeat: no-repeat;
+    height: auto;
+    background-position: 17px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    object-fit: cover;
+}
+.background_da1{
+    background-image: url(https://fit-hitu.edu.vn/wp-content/uploads/2020/11/Bg410_100_1.png.webp);
+    background-repeat: no-repeat;
+    height: auto;;
+    background-position: 17px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+.all{
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.bd-face{
+    height: 70px;
+    margin-top: 5px;
+    text-align: center;
+    border-left:6px solid #007AFF;
+    border-right: 6px solid #007AFF;
+}
+.svtb{
+    font-size: 15px;
+    font-weight: 700;
+    
+    color: white;;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    background-color: var(--xanhblue);
+}
+.thong-ke p{
+    text-align: right;
+}
+.menu_mobie{
+    display: none;
+   }
+@media only screen and (max-width: 600px) {
+   .topbar_search input{
+    width: 80%;
+   }
+    .nav_menu>li{
+    display: none;
+   }
+   .menu_mobie{
+    display: block;
+   }
+  }
