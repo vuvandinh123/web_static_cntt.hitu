@@ -214,11 +214,12 @@ html{
    
 }
 .background_da{
-    background-image: url(https://fit-hitu.edu.vn/wp-content/uploads/2020/11/Bg410_100_2.png.webp);
+    background-image: url(di1.jpg);
     background-repeat: no-repeat;
     height: auto;
     background-position: 17px;
     color: white;
+    max-width: 100%;
     font-weight: 700;
     font-size: 20px;
     text-align: center;
@@ -226,9 +227,10 @@ html{
     object-fit: cover;
 }
 .background_da1{
-    background-image: url(https://fit-hitu.edu.vn/wp-content/uploads/2020/11/Bg410_100_1.png.webp);
+    background-image: url(diem.jpg);
     background-repeat: no-repeat;
     height: auto;;
+    max-width: 100%;
     background-position: 17px;
     color: white;
     font-weight: 700;
@@ -274,4 +276,13 @@ html{
    .menu_mobie{
     display: block;
    }
+   .td{
+    margin-left: 7px;
+   }
+   .background_da,.background_da1{
+    width: 100%;
+    background-position: unset;
+    border-radius: 15px;
+   }
+  
   }
